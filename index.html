@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Autre Vie - Association humanitaire</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min1.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="application/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="application/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script type="application/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
+
+</head>
+<body data-spy="scroll" data-target="#mainmenu">
+
+<!-- barre de navigation - début -->
+
+    <nav id="mainmenu" class="navbar navbar-default navbar-fixed-top mainmenu">
+        
+        <nav id="nav_contact" class="navbar navbar-default">
+            
+            <div class="container">
+                <div class="row contacts">
+                    <div class=" col-lg-2 col-md-1 col-sm-2 col-xs-3">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html">
+                                
+                                <img class="logo visible-md visible-lg" src="images/logo_avie.png" alt="">
+                                <img class="logo visible-sm" src="images/logo_avie.png" alt=""
+                                style=" border-radius: 20px; width: 190px;">
+                                <section id="log_nom">
+                                    <div class="row visible-xs">
+                                        <div class="col-xs-6"><img src="images/logo.png" style="width: 60px; padding-top: 21px;"></div>
+                                        <div class="col-xs-6"><img src="images/àvie.png" style="padding-top: 32px;"></div>
+                                    </div>
+                                </section>
+                                
+                                <section id="log_cigle">
+                                    <img class="logo visible-xs log_cigle" src="images/àvie.png" style="padding-top: 30px;">
+                                </section>
+                              
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-9 col-sm-10 visible-xs visible-sm">
+                         <div class="row">
+                            <div class="col-xs-2 col-sm-4 text-right">
+                                <a href="tel:+33660374275"><i class="fas fa-mobile-alt"></i></a>
+                            </div>
+                            <div class="col-xs-2 col-sm-2 text-center">
+                                <!-- <i class="fas fa-envelope-square"></i> -->
+                                <!-- <i class="fas fa-envelope-open-text"></i> -->
+                                <a href="mailto:associationautrevie@gmail.com"><i class="fas fa-envelope"></i></a>
+                            </div>
+                            <div class="col-xs-2 col-sm-2 text-left">
+                                <a href="https://maps.app.goo.gl/oF5JMjwwpqgz8DrD9"><i class="fas fa-map-marker-alt"></i></a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-right">
+                                <a class="btn btn-sm btn-primary " href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" role="button">FAIRE UN DON</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="nav_contact_contact" class="contacts col-lg-10 col-md-11 col-sm-10 hidden-xs">
+                        <div class="row visible-md visible-lg">
+                            <div class="col-lg-3 text-left hidden-md">
+                                <p><i class="fas fa-mobile-alt"></i> +33660374275 </p>
+                            </div>
+                            <div class="col-md-3 text-center visible-md">
+                                <p><i class="fas fa-mobile-alt"></i> +33660374275 </p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 text-center">
+                                <p><a href="mailto:associationautrevie@gmail.com"><i class="fas fa-envelope"></i> associationautrevie@gmail.com</a></p>
+                            </div>
+                            <div class="col-md-5 text-right visible-md">
+                                <p><i class="fas fa-map-marker-alt"></i> 12 Allée des Coteaux 78110 Le Vésinet</p>
+                            </div>
+                            <div class="col-lg-5 text-right hidden-md">
+                                <p><a href="https://maps.app.goo.gl/oF5JMjwwpqgz8DrD9"><i class="fas fa-map-marker-alt"></i> 12 Allée des Coteaux 78110 Le Vésinet</a></p>
+                            </div>
+                        </div>
+                    </div>
+                            
+                </div>
+            </div>
+
+        </nav><!--nav_contact-->
+
+        <div class="container">
+
+            <div class="navbar-header">
+                <button id="btn_menu" class="navbar-toggle btn_menu" data-toggle="collapse" data-target="#monmenu">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    <span class="glyphicon glyphicon-remove"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="monmenu">
+                                
+                <ul class="nav navbar-nav">
+                    <li class="accueil"><a href="index.html" style="color: #000;"><button>Accueil</button></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos de nous <samp class="caret"></samp></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html#nous">Qui sommes nous</a></li>
+                            <li><a href="index.html#notre_mission">Notre mission</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="rejoindre.html">Rejoignez-nous</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Les membres <samp class="caret"></samp></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Ajouter</a></li>
+                            <li><a href="#">Modifier</a></li>
+                            <li><a href="#">Supprimer</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="bienvenue visible-md visible-lg"><a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;"><button class="btn btn-info btn-lg">Faire un don</button></a></li>
+                    <!-- <li id="moncompte"><a href="#"><span class="glyphicon glyphicon-user"></span></a></li> -->
+                </ul>
+
+            </div>
+            
+        </div>
+    </nav>
+
+<!-- barre de navigation - fin -->
+
+
+<!-- diaporama - début -->
+
+    <div id="accueil" class="container container_carousel">
+        <div class="row row_carousel">    
+            
+            <div class="col-md-12 carou">
+                
+                <!-- Carousel
+                ================================================== -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d17a), url('images/img-desktop/avie0.png') center/cover no-repeat;">
+                            <img class="first-slide img-responsive hidden-xs" src="images/img-desktop/avie0.png" alt="First slide">
+                            <img class="first-slide img-responsive visible-xs" src="images/logo.png" alt="First slide" style="transform: scale(0.4);">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Association AUTRE VIE</h1>
+                                    <p class="desc" style="margin-bottom: 10px;">
+                                        Une association humanitaire à but non lucratif dont les missions ont pour racines communes :  
+                                        L'ASSISTENCE, L'AIDE et LA PRÉVENTION
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="index.html#nous" role="button">A Propos de nous</a></p>
+                                    <p class="visible-xs"><a class="btn btn-primary " href="index.html#nous" role="button">A Propos de nous</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d17a), url('images/img-desktop/agé1.png') center/cover no-repeat;">
+                            <img class="second-slide img-responsive" src="images/img-desktop/agé1.png" alt="Second slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>ASSISTER</h1>
+                                    <p class="desc" style="margin-bottom: 10px;">
+                                        les personnes agées viavant seules
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="index.html#age" role="button">Savoir plus</a></p>
+                                    <p class="visible-xs"><a class="btn btn-primary " href="#" role="index.html#age">Savoir plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d17a), url('images/img-desktop/handicap1.jpg') center/cover no-repeat;">
+                            <img class="second-slide img-responsive" src="images/img-desktop/handicap1.jpg" alt="Second slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>ASSISTER ET AIDER</h1>
+                                    <p class="desc" style="margin-bottom: 10px;">
+                                        les familles des enfants handicapés
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="index.html#handicap" role="button">Savoir plus</a></p>
+                                    <p class="visible-xs"><a class="btn btn-primary " href="index.html#handicap" role="button">Savoir plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d17a), url('images/img-desktop/medoc0.png') center/cover no-repeat;">
+                            <img class="third-slide img-responsive" src="images/img-desktop/medoc01.png" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>AIDER</h1>
+                                    <p class="desc" style="margin-bottom: 10px;">
+                                        Aides aux pays en voie de developpement : acquisition du matériel médical, accès aux soins
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="index.html#medoc" role="button">Voir plus</a></p>
+                                    <p class="visible-xs"><a class="btn btn btn-primary " href="index.html#medoc" role="button">Voir plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d17a), url('images/img-desktop/jeune-form0.png') center/cover no-repeat;">
+                            <img class="third-slide img-responsive" src="images/img-desktop/jeune-form0.png" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>AIDER ET PREVENIR</h1>
+                                    <p>Formation et l'insertion professionnelle des jeunes <br> pour la prévention de
+                                        l'immigration clandestine dans les pays en voie de développement
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="index.html#jeune" role="button">Voir plus</a></p>
+                                    <p class="visible-xs"><a class="btn btn btn-primary " href="index.html#jeune" role="button">Voir plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d17a), url('images/img-desktop/gross2.jpg') center/cover no-repeat;">
+                            <img class="third-slide img-responsive" src="images/img-desktop/gross2.jpg" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>PRÉVENIR</h1>
+                                    <p class="desc" style="margin-bottom: 10px;">
+                                        sensibilisation au suivi de grossesse pour la la prévention de la mortalité maternelle et infantile <br>
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="index.html#gross" role="button">Savoir plus</a></p>
+                                    <p class="visible-xs"><a class="btn btn btn-primary " href="index.html#gross" role="button">Savoir plus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background: linear-gradient(rgba(0,0,0,0.5), #0676d1ce);">
+                            <img class="third-slide img-responsive" src="images/contact_us.svg" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>CONTACT</h1>
+                                    <p class="desc" style="margin-bottom: 10px;">
+                                        Contactez-nous -dites-nous ce que vous pensez-, Vous voulez participer à nos actions ? déposez votre candidature
+                                    </p>
+                                    <p class="hidden-xs"><a class="btn btn-lg btn-primary" href="#contact" role="button">Contact</a></p>
+                                    <p class="visible-xs"><a class="btn btn btn-primary " href="#contact" role="button">Contact</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div><!-- /.carousel -->
+
+            </div>
+
+        </div>
+    </div>
+
+<!-- diaporama - fin -->
+
+
+<!-- qui sommes nous -début -->
+
+    <section id="nous">
+        <div  class="container ">
+            <div class="row">
+                <div class="col-xs-12 titre text-center">
+                    <div class="titre_text">
+                        <p>QUI SOMMES NOUS ?</p>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div id="qui_sommes_nous" class="container container_tm">
+    
+                        <div class="row" style="padding-bottom: 10px;">
+                            <div  class="col-md-8 col-sm-7 col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12 text-center">
+                                        <h1>
+                                            <span class="asso">Association</span>
+                                            <p class="btn btn-lg btn-info" style="padding-top: 15px;"><strong>AUTRE VIE</strong></p>
+                                            <br>
+                                            <span class="fond"><h4>AVIE</h4</span>
+                                        </h1>
+                                    </div>
+                                    <div class="col-xs-6 visible-xs col-xs-offset-3">
+                                        <a href="#"><img class="img-responsive" src="images/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="col-xs-12 text-justify">
+                                        <h2 class="text-center">Bienvenue à vous !</h2>
+                                        <p>ASSOCIATION AUTRE VIE (sigle AVIE) est une association humanitaire à but non lucratif, basée à 
+                                            <a href="#">Le Vésinet</a> en France.
+                                        </p>
+                                        <p>
+                                            Elle est crée avec plusieurs objectifs à atteindre ou plusieurs missions à remplir dont les racines communes sont :
+                                        </p>
+                                        <ul style="font-weight: bold; font-size: 17px;">
+                                            <li>L'ASSISTENCE</li>
+                                            <li>L'AIDE</li>
+                                            <li>LA PRÉVENTION</li>
+                                        </ul>
+                                        <p>
+                                            Ci-dessous sont présentés les différents objectifs de l'assossiation 
+                                            <a href="#mis"><span class="glyphicon glyphicon-hand-down"></span></a>
+                                        </p>
+                                    </div>
+                                    <!-- <div class="col-xs-12 text-center" style="padding-top: 5px; padding-bottom: 20px;">
+                                        <a href="#" class="btn btn-info btn-lg active">Commencer &emsp; <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-5 hidden-xs" style="border-left: #000 1px solid;">
+                                <a href="#"><img class="img-responsive" src="images/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- qui sommes nous -fin -->
+
+
+<!-- notre mission - début -->
+
+    <div id="mis" class="container" style="width: 100%;">
+        <div class="row">
+            <div class="col-xs-12 text-center" style="margin-bottom: 20px;">
+                <div class="titre_text">
+                    <p>NOTRE MISSION</p>
+                </div>
+
+                
+            </div>
+            <center>
+                <p class="visible-lg visible-md" style="color: green;"><i>Survolez les images pour afficher toutes les autres images !</i></p>
+            </center>
+            <div class="col-xs-12">
+                <div id="notre_mission" class="container container_tm">
+                    
+                    <div class="row" style="padding-bottom: 10px;">
+                        <!-- visible-md -->
+                            <div class="col-md-4 text-center visible-md visible-lg">
+                                <!-- Box -->
+                                <section id="handicap" class="mission_box handicap" style="padding-bottom: 20px;">
+                                    <!-- image -->
+                                    <img class="img-responsive ig" src="images/img-desktop/handicap1.jpg" alt="" />
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss1" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss1" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss1" data-slide-to="1"></li>
+                                                    <li data-target="#myCarousel_miss1" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/handicap3.png" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/handicap2.png" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/handicap1.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss1" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss1" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+                                    <h1>
+                                        <i class="fas fa-wheelchair"></i>
+                                    </h1>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Assistence et Aide</h2>
+                                            <p>aux familles des enfants handicapés</p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-md-4 text-center visible-md visible-lg">
+                                <!-- Box -->
+                                <section id="age" class="mission_box age" style="padding-bottom: 20px;">
+                                    <!-- image -->
+                                    <img class="img-responsive ig" src="images/img-desktop/agé1.jpg" alt="" />
+                                    
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss2" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss2" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss2" data-slide-to="1"></li>
+                                                    <li data-target="#myCarousel_miss2" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/agé2.png" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/agé3.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/agé5.png" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss2" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss2" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+                                    <h1>
+                                        <i class="fas fa-blind"></i>
+                                    </h1>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Assistence</h2>
+                                            <p>des personnes agées vivant seules</p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-md-4 text-center visible-md visible-lg">
+                                <!-- Box -->
+                                <section id="medoc" class="mission_box medoc">
+                                    <!-- image -->
+                                    <img class="img-responsive ig" src="images/img-desktop/medoc01.png" alt="" />
+
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss3" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss3" data-slide-to="0" class="active"></li>
+                                                    
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/medoc01.png" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss3" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss3" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+
+                                    <h1>
+                                        <i class="fas fa-hand-holding-medical"></i>
+                                    </h1>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Aide</h2>
+                                            <p>à l'acquisition du matériel médical dans les pays en voie de développement</p>
+                                        </header>
+                                        
+                                    </div>
+                                </section>
+                            </div>
+                        
+                            <div class="col-md-6 text-center visible-md visible-lg">
+                                <!-- Box -->
+                                <section id="gross" class="mission_box b gross">
+                                    <!-- image -->
+                                    <img class="ig" src="images/img-desktop/gross2.jpg" alt="" />
+
+                                     <!-- diaporama -->
+                                     <div class="row row_carousel">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss6" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss6" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss6" data-slide-to="1"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/gross.jpg" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/gross2.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss6" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss6" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+
+                                    <h1>
+                                        <i class="fas fa-baby-carriage"></i>
+                                    </h1>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Aide</h2>
+                                            <p>
+                                                à l'accès aux soins et <b>sensibilisation</b> au suivi de grossesse pour la <b>prévention</b>
+                                                de la mortalité maternelle et infantile dans les pays en voie de devloppement
+                                            </p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-md-6 text-center visible-md visible-lg">
+                                <!-- Box -->
+                                <section id="jeune" class="mission_box b jeune">
+                                    <!-- image -->
+                                    <img class="ig" src="images/img-desktop/jeune-form0.png" alt="" />
+
+                                     <!-- diaporama -->
+                                     <div class="row row_carousel">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss7" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss7" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss7" data-slide-to="1"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/jeune2.jpg" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/avie4.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/jeune-form0.png" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss7" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss7" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+
+                                    <h1>
+                                        <i class="fas fa-user-tie"></i>
+                                    </h1>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Aide</h2>
+                                            <p>à la <b>formation</b> et l'<b>insertion professionnelle</b> des jeunes pour la prévention de
+                                                l'immigration clandestine dans les pays en voie de développement
+                                            </p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>   
+                            
+                        <!-- hidden-md -->
+                            <div class="col-sm-6 col-xs-12 col text-center hidden-md hidden-lg">
+                                <!-- Box -->
+                                <section id="handicap" class="mission_box handicap" style="padding-bottom: 20px;">
+                                    <!-- image -->
+                                    <img class="img-responsive ig img01" src="images/img-desktop/handicap1.jpg" alt="" />
+
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel diapo01">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss01" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss01" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss0" data-slide-to="1"></li>
+                                                    <li data-target="#myCarousel_miss01" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/handicap3.png" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/handicap2.png" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/handicap1.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss01" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss01" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+                                    <h1>
+                                        <i class="fas fa-wheelchair"></i>
+                                    </h1>
+                                    
+                                    <section id="survol01">
+                                        <p class="visible-xs visible-sm">
+                                            <span class="glyphicon glyphicon-eye-open"></span>
+                                            cliquer pour <br> visualiser les images
+                                        </p>
+                                    </section>
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Assistence et Aide</h2>
+                                            <p>aux familles des enfants handicapés</p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12 col text-center hidden-md hidden-lg">
+                                <!-- Box -->
+                                <section id="age" class="mission_box age" style="padding-bottom: 20px;">
+                                    <!-- image -->
+                                    <img class="img-responsive ig img02" src="images/img-desktop/agé1.jpg" alt="" />
+                                    
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel diapo02">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss02" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss02" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss02" data-slide-to="1"></li>
+                                                    <li data-target="#myCarousel_miss02" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/agé2.png" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/agé3.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/agé5.png" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss02" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss02" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+                                    <h1>
+                                        <i class="fas fa-blind"></i>
+                                    </h1>
+                                    
+                                    <section id="survol02">
+                                        <p class="visible-xs visible-sm">
+                                            <span class="glyphicon glyphicon-eye-open"></span>
+                                            cliquer pour <br> visualiser les images
+                                        </p>
+                                    </section>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Assistence</h2>
+                                            <p>des personnes agées vivant seules</p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12 col text-center hidden-md hidden-lg">
+                                <!-- Box -->
+                                <section id="medoc" class="mission_box medoc">
+                                    <!-- image -->
+                                    <img class="img-responsive ig img03" src="images/img-desktop/medoc01.png" alt="" />
+
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel diapo03">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss03" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss03" data-slide-to="0" class="active"></li>
+                                                    
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/medoc01.png" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss03" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss03" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+
+                                    <h1>
+                                        <i class="fas fa-hand-holding-medical"></i>
+                                    </h1>
+                                    
+                                    <section id="survol03">
+                                        <p class="visible-xs visible-sm">
+                                            <span class="glyphicon glyphicon-eye-open"></span>
+                                            cliquer pour <br> visualiser les images
+                                        </p>
+                                    </section>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Aide</h2>
+                                            <p>à l'acquisition du matériel médical dans les pays en voie de développement</p>
+                                        </header>
+                                        
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12 col text-center hidden-md hidden-lg">
+                                <!-- Box -->
+                                <section id="gross" class="mission_box gross">
+                                    <!-- image -->
+                                    <img class="img-responsive ig img04" src="images/img-desktop/gross2.jpg" alt="" />
+                                    
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel diapo04">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss04" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss04" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss04" data-slide-to="1"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/gross.jpg" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/gross2.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss04" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss04" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+
+                                    <h1>
+                                        <i class="fas fa-baby-carriage"></i>
+                                    </h1>
+                                    
+                                    <section id="survol04">
+                                        <p class="visible-xs visible-sm">
+                                            <span class="glyphicon glyphicon-eye-open"></span>
+                                            cliquer pour <br> visualiser les images
+                                        </p>
+                                    </section>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Aide</h2>
+                                            <p>
+                                                à l'accès aux soins et <b>sensibilisation</b> au suivi de grossesse pour la <b>prévention</b>
+                                                de la mortalité maternelle et infantile dans les pays en voie de devloppement
+                                            </p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12 col text-center hidden-md hidden-lg">
+                                <!-- Box -->
+                                <section id="jeune" class="mission_box jeune">
+                                    <!-- image -->
+                                    <img class="img-responsive ig img05" src="images/img-desktop/jeune-form0.png" alt="" />
+
+                                    <!-- diaporama -->
+                                    <div class="row row_carousel diapo05">                      
+                                        <div class="col-md-12">
+                                            <div id="myCarousel_miss05" class="carousel slide" data-ride="carousel">
+                                                <!-- Indicators -->
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel_miss05" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#myCarousel_miss05" data-slide-to="1"></li>
+                                                    <li data-target="#myCarousel_miss05" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="item active">
+                                                        <img class="img-responsive" src="images/img-desktop/jeune2.jpg" alt="" />
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/avie4.jpg" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="second-slide img-responsive" src="images/img-desktop/jeune-form0.png" alt="Second slide">
+                                                        <div class="container">
+                                                            <div class="carousel-caption">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="left carousel-control" href="#myCarousel_miss05" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel_miss05" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div><!-- /.carousel -->
+                            
+                                        </div>
+                                    </div>
+
+                                    <h1>
+                                        <i class="fas fa-user-tie"></i>
+                                    </h1>
+                                    
+                                    <section id="survol05">
+                                        <p class="visible-xs visible-sm">
+                                            <span class="glyphicon glyphicon-eye-open"></span>
+                                            cliquer pour <br> visualiser les images
+                                        </p>
+                                    </section>
+
+                                    <div class="mission_text">
+                                        <header>
+                                            <h2>Aide</h2>
+                                            <p>à la <b>formation</b> et l'<b>insertion professionnelle</b> des jeunes pour la prévention de
+                                                l'immigration clandestine dans les pays en voie de développement
+                                            </p>
+                                        </header>
+                                    </div>
+                                </section>
+                            </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- notre mission - fin -->
+
+
+<!-- liens - début -->
+
+    <section id="liens">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 hidden-xs">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(9, 138, 4);">EN SAVOIR PLUS SUR NOUS&emsp;<span id="plus" class="glyphicon glyphicon-exclamation-sign"></span></a>
+                    </section>
+                </div>
+    
+                <!-- visible-sm -->
+                <div class="col-sm-6 text-right visible-sm">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(4, 62, 138);">VOIR NOS ACTIONS&emsp;<span id="act" class="glyphicon glyphicon-leaf"></span></a>
+                    </section>
+                </div>
+                <div class="col-sm-6 col-sm-offset-3 visible-sm text-right" style="margin-top: 50px;">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" return false;" style="background-color: rgb(138, 35, 4);">PARTICIPER A L'AVENTURE&emsp;<span id="ave" class="glyphicon glyphicon-heart"></span></a>
+                    </section>
+                </div>
+                
+                <!-- hidden-sm and hidden-xs -->
+                <div class="col-md-4 hidden-sm hidden-xs text-center">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(4, 62, 138);">VOIR NOS ACTIONS&emsp;<span id="act" class="glyphicon glyphicon-leaf"></span></a>
+                    </section>
+                </div>
+                <div class="col-md-4 hidden-sm hidden-xs text-right">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(138, 35, 4);">PARTICIPER A L'AVENTURE&emsp;<span id="ave" class="glyphicon glyphicon-heart"></span></a>
+                    </section>
+                </div>
+    
+                <!-- visible-xs -->
+                <div class="col-xs-12 text-center visible-xs">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(9, 138, 4);">EN SAVOIR PLUS SUR NOUS&emsp;<span id="plus" class="glyphicon glyphicon-exclamation-sign"></span></a>
+                    </section>
+                </div>
+                <div class="col-xs-12 text-center visible-xs">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(4, 62, 138);">VOIR NOS ACTIONS&emsp;<span id="act" class="glyphicon glyphicon-leaf"></span></a>
+                    </section>
+                </div>
+                <div class="col-xs-12 text-center visible-xs">
+                    <section class="lien_box">
+                        <a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" style="background-color: rgb(138, 35, 4);">PARTICIPER A L'AVENTURE&emsp;<span id="ave" class="glyphicon glyphicon-heart"></span></a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- liens - fin -->
+
+
+<!-- contact -début -->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>Paris - FRANCE</h1>
+            </div>
+
+            <!-- md and lg -->
+            <div class="col-md-5 text-center visible-md visible-lg">
+                <p><strong>Siège : </strong>12 Allée des Coteaux 78110 Le Vésinet</p>
+            </div>
+            <div class="col-md-3 visible-md visible-lg">
+                <p><strong>Tel. : </strong>+33660374275</p>
+            </div>
+            <div class="col-md-4 visible-md visible-lg">
+                <p><strong>Email : </strong>associationautrevie@gmail.com</p>
+            </div>
+
+            <!-- sm and xs -->
+            <div class="col-xs-12 col-sm-9 col-sm-offset-3 text-left visible-xs visible-sm">
+                <p><strong>&emsp;Siège :&emsp; </strong> 12 Allée des Coteaux 78110 Le Vésinet</p>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-offset-3 text-left visible-xs visible-sm">
+                <p><strong>&emsp;Tel :&emsp;&emsp; </strong>+33660374275</p>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-offset-3 text-left visible-xs visible-sm">
+                <p><strong>&emsp;Email :&emsp; </strong>associationautrevie@gmail.com</p>
+            </div>
+
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center" style="margin-bottom: 10px;">
+                <h5>
+                    Ecrivez-nous 
+                    <a href="contact.html">Ici 
+                        <span class="glyphicon glyphicon-envelope"></span>
+                    </a><br>
+                    
+                    <span class="visible-xs">
+                        <hr style="margin: 10px 0;">
+                        Appelez-nous 
+                        <a href="tel:+33660374275"> Ici 
+                            <span class="glyphicon glyphicon-phone-alt"></span>
+                        </a>
+                    </span>
+                    
+                </h5>
+            </div>
+
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
+                <h4> <u>Design</u> : logo | Tom</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact _ fin -->
+    
+
+                   
+
+    <script>
+
+        // changement du menu lors du scroll
+
+        const nav_tm = document.querySelector('.mainmenu');
+
+        
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > window.innerHeight/4) {
+                nav_tm.classList.add('scroll');
+            }else{
+                nav_tm.classList.remove('scroll');
+            }
+        });
+
+        //clic pour affiche le diaporama et le cacher lorsqu'on clique ailleurs
+
+            // METHODE 1
+
+        window.addEventListener('click', function(e){
+            if (document.getElementById('survol01').contains(e.target) || document.querySelector('.diapo01').contains(e.target)) {
+                document.querySelector('.img01').style.display="none"
+                document.querySelector('.diapo01').style.display="block"
+                document.querySelector('#survol01').style.display="none"
+            }else{
+                document.querySelector('.img01').style.display=""
+                document.querySelector('.diapo01').style.display="none"
+                document.querySelector('#survol01').style.display=""
+            }
+
+            if (document.getElementById('survol02').contains(e.target) || document.querySelector('.diapo02').contains(e.target)) {
+                document.querySelector('.img02').style.display="none"
+                document.querySelector('.diapo02').style.display="block"
+                document.querySelector('#survol02').style.display="none"
+            }else{
+                document.querySelector('.img02').style.display=""
+                document.querySelector('.diapo02').style.display="none"
+                document.querySelector('#survol02').style.display=""
+            }
+
+            if (document.getElementById('survol03').contains(e.target) || document.querySelector('.diapo03').contains(e.target)) {
+                document.querySelector('.img03').style.display="none"
+                document.querySelector('.diapo03').style.display="block"
+                document.querySelector('#survol03').style.display="none"
+            }else{
+                document.querySelector('.img03').style.display=""
+                document.querySelector('.diapo03').style.display="none"
+                document.querySelector('#survol03').style.display=""
+            }
+
+            if (document.getElementById('survol04').contains(e.target) || document.querySelector('.diapo04').contains(e.target)) {
+                document.querySelector('.img04').style.display="none"
+                document.querySelector('.diapo04').style.display="block"
+                document.querySelector('#survol04').style.display="none"
+            }else{
+                document.querySelector('.img04').style.display=""
+                document.querySelector('.diapo04').style.display="none"
+                document.querySelector('#survol04').style.display=""
+            }
+
+            if (document.getElementById('survol05').contains(e.target) || document.querySelector('.diapo05').contains(e.target)) {
+                document.querySelector('.img05').style.display="none"
+                document.querySelector('.diapo05').style.display="block"
+                document.querySelector('#survol05').style.display="none"
+            }else{
+                document.querySelector('.img05').style.display=""
+                document.querySelector('.diapo05').style.display="none"
+                document.querySelector('#survol05').style.display=""
+            }
+        });
+
+            // METHODE 2
+
+        // document.querySelector('#survol1').onclick = function(){
+        //     document.querySelector('.img1').style.display="none"
+        //     document.querySelector('.diapo1').style.display="block"
+        //     document.querySelector('#survol1').style.display="none"
+        // }
+        // document.querySelector('#survol2').onclick = function(){
+        //     document.querySelector('.img2').style.display="none"
+        //     document.querySelector('.diapo2').style.display="block"
+        //     document.querySelector('#survol2').style.display="none"
+        // }
+        // document.querySelector('#survol3').onclick = function(){
+        //     document.querySelector('.img3').style.display="none"
+        //     document.querySelector('.diapo3').style.display="block"
+        //     document.querySelector('#survol3').style.display="none"
+        // }
+        // document.querySelector('#survol4').onclick = function(){
+        //     document.querySelector('.img4').style.display="none"
+        //     document.querySelector('.diapo4').style.display="block"
+        //     document.querySelector('#survol4').style.display="none"
+        // }
+        // document.querySelector('#survol5').onclick = function(){
+        //     document.querySelector('.img5').style.display="none"
+        //     document.querySelector('.diapo5').style.display="block"
+        //     document.querySelector('#survol5').style.display="none"
+        // }
+
+            // click sur le boutton menu
+        
+        document.querySelector('.glyphicon-remove').style.display="none";
+        
+        const menuBtn = document.querySelector('.btn_menu');
+        menuBtn.onclick = function(){
+            if (document.querySelector('.glyphicon-remove').style.display == "none") {
+                document.querySelector('.glyphicon-menu-hamburger').style.display="none"
+                document.querySelector('.glyphicon-remove').style.display=""
+            }
+            else{
+                document.querySelector('.glyphicon-remove').style.display="none"
+                document.querySelector('.glyphicon-menu-hamburger').style.display=""
+            }  
+        }
+    </script>
+
+
+</body>
+</html>
