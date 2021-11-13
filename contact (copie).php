@@ -29,36 +29,26 @@
 
 <!-- barre de navigation - début -->
 
-    <nav id="mainmenu" class="navbar navbar-default navbar-fixed-top mainmenu scroll">
-            
+    <nav id="mainmenu" class="navbar navbar-default navbar-fixed-top mainmenu scroll" style="margin-bottom: 200px;">
+        
         <nav id="nav_contact" class="navbar navbar-default">
             
             <div class="container">
                 <div class="row contacts">
                     <div class=" col-lg-2 col-md-1 col-sm-2 col-xs-3">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="#">
                                 
                                 <img class="logo visible-md visible-lg" src="images/logo_avie.png" alt="">
-                                <img class="logo visible-sm" src="images/logo_avie.png" alt=""
-                                style=" border-radius: 20px; width: 190px;">
-                                <section id="log_nom">
-                                    <div class="row visible-xs">
-                                        <div class="col-xs-6"><img src="images/logo.png" style="width: 60px; padding-top: 21px;"></div>
-                                        <div class="col-xs-6"><img src="images/àvie.png" style="padding-top: 32px;"></div>
-                                    </div>
-                                </section>
-                                
-                                <section id="log_cigle">
-                                    <img class="logo visible-xs log_cigle" src="images/àvie.png" style="padding-top: 30px;">
-                                </section>
+                                <img class="logo visible-sm" src="images/nom1.png" alt="">
+                                <img class="logo visible-xs" src="images/àvie.png" alt="">
                               
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-9 col-sm-10 visible-xs visible-sm">
-                        <div class="row">
-                            <div class="col-xs-2 col-sm-4 text-right">
+                         <div class="row">
+                            <div class="col-xs-2 col-sm-2 text-right">
                                 <a href="tel:+33660374275"><i class="fas fa-mobile-alt"></i></a>
                             </div>
                             <div class="col-xs-2 col-sm-2 text-center">
@@ -67,10 +57,10 @@
                                 <a href="mailto:associationautrevie@gmail.com"><i class="fas fa-envelope"></i></a>
                             </div>
                             <div class="col-xs-2 col-sm-2 text-left">
-                                <a href="https://maps.app.goo.gl/oF5JMjwwpqgz8DrD9"><i class="fas fa-map-marker-alt"></i></a>
+                                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
                             </div>
-                            <div class="col-xs-6 col-sm-4 text-right">
-                                <a class="btn btn-sm btn-primary " href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;" role="button">FAIRE UN DON</a>
+                            <div class="col-xs-6 col-sm-6 text-right">
+                                <p><a class="btn btn-sm btn-primary " href="#faire_un_don" role="button">FAIRE UN DON</a></p>
                                 
                             </div>
                         </div>
@@ -85,13 +75,13 @@
                                 <p><i class="fas fa-mobile-alt"></i> +33660374275 </p>
                             </div>
                             <div class="col-lg-4 col-md-4 text-center">
-                                <p><a href="mailto:associationautrevie@gmail.com"><i class="fas fa-envelope"></i> associationautrevie@gmail.com</a></p>
+                                <p><i class="fas fa-envelope"></i> associationautrevie@gmail.com</p>
                             </div>
                             <div class="col-md-5 text-right visible-md">
                                 <p><i class="fas fa-map-marker-alt"></i> 12 Allée des Coteaux 78110 Le Vésinet</p>
                             </div>
                             <div class="col-lg-5 text-right hidden-md">
-                                <p><a href="https://maps.app.goo.gl/oF5JMjwwpqgz8DrD9"><i class="fas fa-map-marker-alt"></i> 12 Allée des Coteaux 78110 Le Vésinet</a></p>
+                                <p><i class="fas fa-map-marker-alt"></i> 12 Allée des Coteaux 78110 Le Vésinet</p>
                             </div>
                         </div>
                     </div>
@@ -129,8 +119,8 @@
                             <li><a href="#">Supprimer</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="contact.html" style="color: #000;">Contact</a></li>
-                    <li class="bienvenue visible-md visible-lg"><a href="#" onclick="alert('Page non disponible poour le moment ! :('); return false;"><button class="btn btn-info btn-lg">Faire un don</button></a></li>
+                    <li><a href="#" style="color: #000;">Contact</a></li>
+                    <li class="bienvenue visible-md visible-lg"><a href="#"><button class="btn btn-info btn-lg">Faire un don</button></a></li>
                     <!-- <li id="moncompte"><a href="#"><span class="glyphicon glyphicon-user"></span></a></li> -->
                 </ul>
 
@@ -185,7 +175,7 @@
                             <textarea name="message" id="message" rows="7" placeholder="Votre message*" required></textarea>
                         </div>
                         <div class="col-xs-12">
-                            <input class="btn btn-primary btn-lg btn_submit" type="submit" value="&emsp; Envoyer &emsp;" style="margin-top: 10px;" onclick="alert('Cette fontionnalité est indisponible pour le moment ! :('); return false;">
+                            <input class="btn btn-primary btn-lg btn_submit" type="submit" value="&emsp; Envoyer &emsp;" style="margin-top: 10px;">
                             
                         </div>
                     </form>  
@@ -231,22 +221,23 @@
                 <p><strong>&emsp;Email :&emsp; </strong>associationautrevie@gmail.com</p>
             </div>
 
-            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center" style="margin-bottom: 10px;">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center visible-xs" style="margin-bottom: 10px;">
                 <h5>
-                    Ecrivez-nous 
-                    <a href="contact.html">Ici 
-                        <span class="glyphicon glyphicon-envelope"></span>
-                    </a><br>
-                    
-                    <span class="visible-xs">
-                        <hr style="margin: 10px 0;">
-                        Appelez-nous 
-                        <a href="tel:+33660374275"> Ici 
-                            <span class="glyphicon glyphicon-phone-alt"></span>
-                        </a>
-                    </span>
-                    
+                    Appelez-nous
+                    <a href="tel:+33660374275"> Ici <span class="glyphicon glyphicon-phone-alt"></span></a>
                 </h5>
+                <!-- <div class="titre_text contact">
+                    <p>NOUS ECRIRE</p>
+                </div> -->
+            </div>
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center hidden-xs" style="margin-bottom: 10px;">
+                <h5>
+                    Appelez-nous
+                    <a href="contact.html"> Ici <span class="glyphicon glyphicon-phone-alt"></span></a>
+                </h5>
+                <!-- <div class="titre_text contact">
+                    <p>NOUS ECRIRE</p>
+                </div> -->
             </div>
 
             <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
